@@ -61,7 +61,6 @@ ul {
 
     .general-nav ul {
         max-width: 8em;
-        list-style: none;
         margin: 0;
     }
 
@@ -129,7 +128,6 @@ ul {
     }
 
     .general-nav ul {
-        list-style: none;
         padding: 0;
         display: grid;
         row-gap: 1em;
