@@ -18,7 +18,7 @@
     color: #EC8FE8
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 767px) {
     .intro-container {
         background-color: #7A76D8;
         max-width: -webkit-fill-available;
@@ -37,7 +37,7 @@
     }
 }
 
-@media screen and (min-width: 421px) {
+@media screen and (min-width: 768px) {
     .landing-main {
         display: flex;
         align-items: center;
