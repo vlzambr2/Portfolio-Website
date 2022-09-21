@@ -131,11 +131,15 @@ ul {
         padding: 0;
         display: grid;
         row-gap: 1em;
-        grid-template-columns: 6.5em 6.5em;
+        grid-template-columns: 50% 50%;
     }
 
     .general-nav li {
         padding: 0 0.5em 0;
+    }
+
+    .general-nav div {
+        text-align: center;
     }
 
     .image-container-about-me {
