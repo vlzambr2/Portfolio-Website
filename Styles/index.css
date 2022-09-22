@@ -20,7 +20,7 @@
 
 .nav-item {
     display: grid;
-    column-gap: .5em;
+    column-gap: 1em;
     grid-template-columns: 10% 90%;
 }
 
@@ -40,9 +40,10 @@
 }
 
 @media screen and (max-width: 767px) {
+
     .intro-container {
         background-color: #7A76D8;
-        max-width: -webkit-fill-available;
+        max-width: 25em;
         max-height: inherit;
         color: #FEFFCC;
     }
@@ -53,6 +54,7 @@
 
     .landing-main {
         align-self:center;
+        max-width: -webkit-fill-available;
     }
 
     .landing-nav {
