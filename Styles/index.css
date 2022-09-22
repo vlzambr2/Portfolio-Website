@@ -3,7 +3,9 @@
 }
 
 .landing-nav li {
-    padding: .40em;
+    padding: 0.4em;
+    max-width: -webkit-fill-available;
+    min-width: fit-content;
 }
 
 .landing-nav div {
@@ -39,13 +41,17 @@
     color: inherit;
 }
 
+.intro-container {
+    background-color: #7A76D8;
+    max-height: inherit;
+    color: #FEFFCC;
+}
+
 @media screen and (max-width: 767px) {
 
     .intro-container {
-        background-color: #7A76D8;
-        max-width: 25em;
-        max-height: inherit;
-        color: #FEFFCC;
+        max-width: -webkit-fill-available;
+        min-width: 15em;
     }
 
     .intro-text {
@@ -63,18 +69,21 @@
     }
 
     .landing-nav ul {
-        font-size: xx-large;
         padding: 0;
     }
 }
 
-@media screen and (min-width: 638px) and (max-width: 767px) {
+@media screen and (min-width: 638px) and (max-width: 1086px) {
     .intro-container {
         max-width: 36em;
     }
+
+    .landing-nav ul {
+        padding: 0;
+    }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1087px) {
     .landing-main {
         display: flex;
         align-items: center;
@@ -82,12 +91,10 @@
     }
 
     .intro-container {
-        background-color: #7A76D8;
         max-width: 25em;
         min-width: 20em;
         max-height: -webkit-fill-available;
         overflow: hidden;
-        color: #FEFFCC;
     }
 
     .landing-nav {
@@ -95,6 +102,7 @@
         min-width: 40em;
         flex-direction: column;
     }
+    
 }
 
 .intro-image {

@@ -47,7 +47,8 @@ ul {
 
 .body-container {
     margin: 0 auto;
-    padding: 30px
+    padding: 30px;
+    align-items: center;
 }
 
 @media screen and (min-width: 768px) {
