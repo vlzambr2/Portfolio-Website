@@ -47,6 +47,7 @@ ul {
 
 .body-container {
     max-width: 1200px;
+    min-width: fit-content;
     margin: 0 auto;
     padding: 30px
 }
