@@ -48,7 +48,6 @@ ul {
 .body-container {
     margin: 0 auto;
     padding: 30px;
-    align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -70,7 +69,6 @@ ul {
 
     .image-container-container {
         padding-left: 1.5em; 
-        
     }
 
     .image-container-about-me {
