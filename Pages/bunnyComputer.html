@@ -48,19 +48,21 @@
             <h1 class="text-title" style="color: #d9aeff;">Bunny Computer</h1>
             <div class="text-container" style="background-color: #d9aeff;">
                 <p class="sub-text">
-                    <b>Goal:</b> To deploy a fully-functional Raspberry Pi cluster inside of 
+                    I combined my love for bunnies and retro tech to make this <b>Retro Macintosh Bunny Computer!</b>
+                    <br>
+                    I configured a fully-functional Raspberry Pi cluster inside of 
                     a custom-printed Retro Macintosh housing, capable of copying / loading 
-                    music files in parallel from an external CD Drive. The Pi cluster would 
-                    employ Chapel, an open-source parallel programming language, to enable 
-                    parallelism between nodes. The finished project should be able to efficiently 
-                    load and play music (from artists such as... the Beastie Boys 🤘) out of the "Bunny Ear" speakers.<br>
+                    audio files in parallel from a CD or a .flac file. The script I wrote in Chapel, an open-source parallel 
+                    programming language, divides an album into even subsets, one subset of tracks per Pi in the cluster, to be processed concurrently. 
+                    When the processing is finished, the music can be played from the "Bunny Ear" speaker attachments that I designed. <br>
                     <br>
-                    Last summer, I learned how to use Fusion360 to modify the project .STL files. 
+                    In the summer of 2022, I learned how to use Fusion360 to modify the project .STL files. 
                     In doing so, I resized the slot intended for a floppy disk reader to accomodate the CD Drive, 
-                    designed new "Bunny Ear" attachments to hold the system speakers, and implemented a pin-based attachment system; I did this
-                    in order to maintain consistency with the original design, and to keep the parts modular. <br>
+                    and designed new "Bunny Ear" modular speaker attachments. <br>
                     <br>
-                    I have successfully configured Chapel for multilocale execution! The next steps are to begin programming the solution! <br>
+                    I cut and crimped my own Ethernet cables to cluster the Raspberry Pis. I set up a shared filesystem on an SD card, so that each Pi could execute the script from and export the processed files to a shared directory.
+                    <br>
+                    I successfully built the Chapel compiler, version 1.28.0, from source on all Pis, and programmed the solution using the FileSystem and Subprocess modules. <br>
                     <br>
                     This project is an enhanced version of this <a href="https://www.thingiverse.com/thing:4088360">Retro Macintosh single-board 
                     project</a> by <a href="https://www.thingiverse.com/LowBudgetTech">LowBudgetTech</a>. 
@@ -69,19 +71,14 @@
             <div>
                 <div class="text-container" style="background-color: #d9aeff;">
                     <p class="sub-text">
-                        This project is a <b>work in progress!</b><br>
-                        Skills/Tools aquired/applied so far: <br>
+                        This project is <b>complete</b> as of <b>12/19/2022!</b><br>
+                        Skills/Tools: <br>
                         <b>
                             ✧ Fusion360<br>
                             ✧ PrusaSlicer<br>
                             ✧ Parallel Programming<br>
                             ✧ Linux<br>
-                        </b>
-                        <br>
-                        Skills/Tools to be aquired and/or applied: <br>
-                        <b>
                             ✧ Chapel (Programming Language)<br>
-                            ✧ File I/O<br>
                         </b>
                     </p>
                 </div>
